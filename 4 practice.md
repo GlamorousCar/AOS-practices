@@ -76,6 +76,33 @@ cp
 ![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/df474370-9c03-4b16-b680-c1e94de2226d)
 
 ##### Архивация и сжатие данных
+Создадим архив из каталога AstraLinux, а затем распакуем его. Посмотрим тип файла для архива.
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/3167468e-b8e2-4277-9046-9bee3ddab6e0)
+
+Проделаем сжатие архива astra.tar
+
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/095005c7-3d89-4dda-a625-44698a7763d6)
+
+Создалим файл размером 100 МБ. Сожмем его с помощью утилиты gzip и добавим в архив astra.tar
+
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/346c93bc-177c-458a-b1c0-1a21766398c2)
+
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/58cb5fba-44c7-4c2f-ad50-d2f80155abeb)
+
+#### Дополнительно
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/79fab1dd-c257-476b-a756-35e4607dd29e)
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/edfeb7b5-d8cb-4f04-8223-bbb821ff92a2)
+
+
+Добавим метку безопасности для директории ~/AstraLinux.
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/34617d3d-07c9-4763-a7dd-760e60198177)
+
+Установим утилиту rsync
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/d3963361-d441-4dfc-9ea9-2a832629b519)
+
+Локальное копирование с учетом наличия меток безопасности.
+![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/2fed25fe-147c-4451-b4ec-3c2e25c4b128)
+
 
 
 
