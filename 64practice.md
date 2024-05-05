@@ -1,4 +1,4 @@
-![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/a27ad1a9-634b-40e8-97c4-49cc42131c89)![image](https://github.com/GlamorousCar/AOS-practices/assets/48102376/642de388-560c-4912-b5a2-4f0fe30f2a26)Практическая работа № 4. Управление конфигурациями хостов с помощью Ansible
+Практическая работа № 4. Управление конфигурациями хостов с помощью Ansible
 
 1. Установка ansible, использование ansible в командной строке и создание файла инвентаризации
 1.1. Установите ansible на ВМ client1.
